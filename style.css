@@ -1,8 +1,10 @@
 body {
+  font-family: Arial;
   margin: auto 0;
   font-family: Arial;
   color: #696969;
 }
+
 
 /* NAV */
 
@@ -45,12 +47,11 @@ a {
     display: grid;
     padding-top: 200px;
     padding-left: 100px;
-    padding-bottom: 50px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     justify-items: start;
     grid-auto-rows: 10px;
-    grid-gap: 1em;
+    /* grid-gap: 1em; */
 }
 
 
@@ -61,4 +62,17 @@ img {
 
 p {
   font-size: 20px;
+}
+
+/* FOOTER */
+
+
+.foot {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  background-color: red;
 }
