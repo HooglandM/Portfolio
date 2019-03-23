@@ -42,15 +42,22 @@ a {
 /* HEADER FOTO */
 
 .container {
-  display: flex;
+    display: grid;
+    padding-top: 200px;
+    padding-left: 100px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    justify-items: start;
+    grid-auto-rows: 10px;
+    grid-gap: 1em;
 }
 
-.cover {
-  padding-top: 15em;
-  padding-left: 10em;
-  padding-right: 5em;
-  width: 30rem;
-}
 
 img {
-  width: 100%;
+  width: 75%;
+
+}
+
+p {
+  font-size: 20px;
+}
