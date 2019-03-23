@@ -1,0 +1,56 @@
+body {
+  margin: auto 0;
+  font-family: Arial;
+  color: #696969;
+}
+
+/* NAV */
+
+.main-nav {
+  display: flex;
+  list-style: none;
+  font-size: 1em;
+  margin: 0;
+  float: right;
+  padding-right: 20px;
+
+}
+
+li {
+  padding: 20px;
+
+}
+
+a {
+  color: #696969;
+  text-decoration: none;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-nav {
+      font-size: 1em;
+      padding: 0;
+    }
+}
+
+/* HEADER FOTO */
+
+.container {
+  display: flex;
+}
+
+.cover {
+  padding-top: 15em;
+  padding-left: 10em;
+  padding-right: 5em;
+  width: 30rem;
+}
+
+img {
+  width: 100%;
