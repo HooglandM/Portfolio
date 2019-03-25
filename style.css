@@ -1,26 +1,22 @@
-body, html {
-    height: 100%;
-}
-
-
 . {
   margin: 0;
   padding: 0;
 }
 
-/* NAVIGATION */
+html, body {
+  height: 100%
 
-.nav-link, .navbar-brand:hover {
-  cursor: url(images/cursor.png), auto;
 }
 
-.nav-item {
-  padding-top: 0;
-  margin: 10px;
-  font-family: 'Roboto Mono', monospace;
+.media-object {
+  width: 50%;
+
 }
 
-/* CONTENT midden van de website */
+.media {
+  padding-top: 200px;
+  padding-left: 200px;
+}
 
 .container {
   min-height: 100%;
@@ -32,18 +28,6 @@ body, html {
 .picture {
   width: 70%
 }
-
-.hometext {
-  padding-top: 50%;
-  font-family: 'Roboto Mono', monospace;
-}
-
-p {
-  font-family: 'Roboto Mono', monospace;
-}
-
-
-/* FOOTER */
 
 .footer {
   text-align: center;
